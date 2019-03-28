@@ -4,5 +4,5 @@ def run_guessing_game
   guess = gets.chomp.to_i
 
   while guess
-  break if guess == random(1..6) puts "You guessed the correct number!" : puts "The computer guessed #{rand(1..6)}.
+  break if guess == random(1..6) puts "You guessed the correct number!" : puts "The computer guessed #{rand(1..6)}.""
 end
