@@ -4,7 +4,7 @@ def run_guessing_game
   input = gets.chomp
 
   while input != "exit"
-  
+
   if input == computer_output.to_s
     puts "You guessed the correct number!"
   else
