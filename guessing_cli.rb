@@ -10,6 +10,6 @@ def run_guessing_game
   elsif input == computer_output.to_s
     puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{rand(1..6)}."
+    puts "The computer guessed #{computer_output}."
   end
 end
