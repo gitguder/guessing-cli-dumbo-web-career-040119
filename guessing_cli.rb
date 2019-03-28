@@ -5,6 +5,6 @@ def run_guessing_game
 
   while guess
     if guess == random(1..6)
-      
+    puts "You guessed"
     end
 end
