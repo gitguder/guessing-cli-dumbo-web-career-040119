@@ -5,5 +5,5 @@ def run_guessing_game
 
   while guess
     if guess == radn(1..6)
-
+    end
 end
