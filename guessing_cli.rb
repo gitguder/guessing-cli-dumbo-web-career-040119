@@ -4,6 +4,7 @@ def run_guessing_game
   guess = gets.chomp.to_i
 
   while guess
-    if guess == radn(1..6)
+    if guess == random(1..6)
+      
     end
 end
