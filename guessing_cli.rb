@@ -8,7 +8,7 @@ def run_guessing_game
   if input == computer_output.to_s
     puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{computer_output}."
+    puts "The computer guessed #{rand(1..6)}."
     end
   end
   puts "Goodbye!"
