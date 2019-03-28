@@ -4,7 +4,10 @@ def run_guessing_game
   guess = gets.chomp.to_i
 
   while guess
-    if guess == random(1..6)
+  if guess == random(1..6)
     puts "You guessed the correct number!"
-    end
+    break
+  else
+
+  end
 end
