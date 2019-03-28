@@ -2,6 +2,7 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
   input = gets.chomp
+  computer_output = rand(1..6)
 
   while !input
   if input == "exit"
